@@ -76,6 +76,10 @@ p {
     height: 100vh;
 }
 
+.logo {
+    cursor: pointer;
+}
+
 
 /* reusable css */
 .half {
@@ -118,6 +122,15 @@ p {
 .full-h {
     height: 100%;
 }
+
+.full-w {
+    width: 100%;
+}
+
+.justify-between {
+    justify-content: space-evenly;
+}
+ 
  
 /* pages */
 .header {
@@ -157,6 +170,8 @@ p {
     grid-area:FT;
     background-color: black;
     color: white;
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -185,6 +200,16 @@ p {
 
 .title-container {
     margin-bottom: 60px;
+}
+.icon-group {
+    justify-content: flex-start;
+
+}
+
+.icon-group img {
+    filter: invert();
+    height: 30px;
+
 }
 
 .title {
@@ -270,3 +295,13 @@ p {
     color: black;
     font-weight: 500;
 }
+
+.description-date{
+    font-size: 12px;
+}
+
+/* footer */
+.icon-container > a > img:hover{
+transform: scale(1.1);
+}
+
